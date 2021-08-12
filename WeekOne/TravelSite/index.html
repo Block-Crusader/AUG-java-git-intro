@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travel Site</title>
+        <!-- Simple inline CSS styling tag to resize our pics to make them smaller to fit on the webpage
+        also did a style to center "everything" (body)-->
+        <style>
+            img{
+                height: 200px;
+            }
+            body{
+                margin: 0px auto; 
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to my Travel Site</h1>
+        <!-- h tag size difference-->
+        <!-- <h2>Welcome to my Travel Site</h2>
+        <h3>Welcome to my Travel Site</h3>
+        <h4>Welcome to my Travel Site</h4>
+        <h5>Welcome to my Travel Site</h5> -->
+
+        <p>This site is where I want to travel too...</p>
+        <h2>Here are some places I would like to visit</h2>
+        <!-- here is an ordered list -->
+        <ol>
+            <li></li>
+        </ol>
+        <!-- unordered list -->
+        <un>
+            <li>Ireland</li>
+            <li>Japan</li>
+            <li>Epstien Island</li>
+            <li>The Moon</li>
+            <li>Edge of the Universe</li>
+        </un>
+
+
+        <a href="https://calkrug.neocities.org" target="_blank">sus</a>
+        <a href="https://www.tourismireland.com/" target="_blank">
+        <img src="https://i.insider.com/54217de269bedd922e133446" alt="Irish Castle Lake Sunshine!" style="max-width:1000px; max-height: 600px;"/>
+        </a>
+
+        <!-- Create an unordered list with a list item that has an anchor tag to a page about their place that they wish to visit -->
+        <ul>
+            <li><a href="https://www.tourismireland.com/" target="_blank">Ireland</a></li>
+            <li><a href="https://www.pixel4k.com/wp-content/uploads/2020/01/japanese-clothes-anime-girl_1578254052.jpg" target="_blank">Japan</a></li>
+            <li><a href="https://i.imgflip.com/4fjjl8.jpg" target="_blank">Epstein Island</a></li>
+            <li><a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c27b3a104981921.5f70267b08237.jpg" target="_blank">The Moon</a></li>
+            <li><a href="https://i.pinimg.com/originals/67/11/f8/6711f8813be5fca1da86d73b86ad5a1f.jpg" target="_blank">Edge of the Universe</a></li>
+        </ul>
+
+        <!-- table elements (and syntax) -->
+        <!-- <table>
+            <th>table header</th>
+            <tr>table row</tr>
+            <td>table column</td>
+        </table>
+        -->
+        
+        <!-- <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last name</th>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Doe</td>
+                </tr>
+
+            </tr>
+        </table>
+        -->
+        <!-- makes a table for us to lay out info in, well, a table on the webpage -->
+        <table>
+            <tr>
+                <th>Destination</th>
+                <th>Capital</th>
+                <th>Official Language</th>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>Manaus</td>
+                <td>Portuguese</td>
+            </tr>
+        </table>
+
+        <!-- forms (element), allows us/users to input information data into a database -->
+        <h2> Where would you like to visit?</h2>
+        <form>
+            <!-- A small text forum that allows the user to input text data for us -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"/>
+            <p>Select all the apply</p>
+            <!-- Interactive "checkbox" elements that the user can select the forum-->
+            <label for="spain">Spain:</label>
+            <input type="checkbox" id="spain" name="spain"/>
+            <label for="amazon">Amazon:</label>
+            <input type="checkbox" id="amazon" name="amazon"/>
+            <label for="amazon">Bermuda:</label>
+            <input type="checkbox" id="burmuda" name="bermuda"/>
+            <br/>
+            <label for="type">What is your favorite type of travel location</label>
+            <select id="type" name="type">
+
+                <option value="beach">Beach</option>
+                <option value="mountains">Mountains</option>
+                <option value="city">City</option>
+
+            </select>
+            <br></br>
+            <!-- A *large* text forum that allows the user to input text data for us -->
+            <textarea id="bio" name="bio" rows="7" cols="50">
+                Tell me a bit more about yourself...
+            </textarea>
+            <br></br>
+            <!-- Button/form of submission for input data above into database/form for example -->
+            <input type="submit" value="ok!"/>
+        </form>
+        <!-- generic container that holds elements ("divides"), often used for styling and organizational purposes -->
+        <!-- note: div is a "block" element, which the browsers will display the element in a separate
+        "block" ([ENTER] before and [ENTER] after) -->
+        <div>
+            <!-- Like div (often used for styling purposes) but more of an inline element, (i.e.
+                doesn't display in "blocks" -->
+                <p></p>
+            <span></span>
+        </div>
+    </body>
+</html>
