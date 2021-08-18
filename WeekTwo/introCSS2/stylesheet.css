@@ -1,0 +1,169 @@
+div p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+
+/*=====CSS for Dropdown Menus=====*/
+
+header{
+    position: fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 94px;
+    border: 4px solid #14a72d;
+}
+
+nav{
+    float: right;
+    
+
+}
+
+
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+ float: left;
+}
+
+/* the comma signifies "&" in CSS,
+so we're styling both li a ,AND .droptbn */
+li a, .dropbtn {
+    /* inside the element and block */
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /* Padding the top and right of the element */
+    padding: 14px 16px;
+    /* exempting the text from decoration */
+    text-decoration: none;
+}
+
+/* styling the children of the li tags,
+and the children of .dropdown, and hover children of dropdown */
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0088CE;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    /* uses the position of the document body */
+    position: absolute;
+    background-color: black;
+    /* the minimum width, ie the smallest it can go */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* children of the dropdown content */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+    /*.dropdown-content a:hover {background-color: #F1F1F1}
+
+        /* making this div (hover) a dropdown block element */
+        /*.dropdown:hover .dropdown-content {
+            display: block;
+        }
+        */
+
+
+        /* @media only screen and (max-width: 480px){
+            /* containters
+            .boxes{
+                width: 100%;
+                height: 200%;
+                background-color: darkred;
+                border: 4px solid #d3d0d0;
+                text-align: center;
+                color: ivory;
+            }
+        }
+        */
+
+        /* @media only screen and (min-width: 480px) and (max-width: 786px){
+            .boxes{
+                width: 50%;
+                height: 200%;
+                background-color: khaki;
+                display: inline-block;
+                float: left;
+                border: 4px solid #d3d0d0;
+                box-sizing: border-box;
+                text-align: center;
+            }
+        } */
+
+        /* @media only screen and (min-width: 770px){
+            .boxes{
+                width: 25%;
+                height: 200%;
+                background-color: rgb(86, 160, 57);
+                display: inline-block;
+                float: left;
+                border: 4px solid #d3d0d0;
+                box-sizing: border-box;
+                text-align: center;
+                color: ivory;
+            } */
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 768px) {
+    header {
+        position: absolute;
+        border-bottom: 4px solid red;
+        }
+        a, a:active, a:visited {
+        color: white;
+    }
+    
+    #menu-icon {
+        display:inline-block;
+    }
+    
+    nav ul, nav:active ul { 
+        display: none;
+        position: absolute;
+        background: #fff;
+        right: 0; 
+        border: 5px solid rgb(98, 74, 74);
+        width: 100%;
+    }
+    
+    nav li:last-of-type {
+        border-bottom: 0px;
+    }
+    
+    /*parent-child-sibling*/
+    nav ul li {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 20px 0;
+        background-color: red;
+        border-bottom: 1px solid #fff;
+    }
+    
+    /*This makes sure the nav menu opens up*/
+    nav:hover ul {
+        display: block;
+    }
+    }

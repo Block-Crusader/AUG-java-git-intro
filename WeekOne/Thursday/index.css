@@ -1,0 +1,69 @@
+/*dry
+don't
+repeat
+yourself
+*/
+
+#second_div {
+    color: darkblue;
+}
+
+.class_div {
+    text-align: center;
+    color: green;
+}
+
+/* unvisited */
+a:link{
+    color:mediumblue;
+}
+
+/* visited */
+a:visited{
+    color:aquamarine;
+}
+
+a:hover {
+    color:blueviolet;
+}
+
+a:active{
+    color:coral;
+}
+
+.big_text{
+    font-weight:bold;
+    font-size: 48px;
+    color: darkcyan;
+    padding:16px;
+}
+
+/* targeting all the divs with a "p" tag inside */
+/*
+div p{
+    background-color: darkred;
+}
+*/
+
+/*targets the divs and the p tags
+example of "dry"*/
+div, .big_text{
+    background-color: firebrick;
+    margin: 0px auto;
+    padding: 2px;
+}
+
+p.mix {border-style: dotted dashed solid}
+
+.standered {
+    border: 5px dashed burlywood;
+    margin: 50px 30px 50px 80px
+}
+
+.border stuff{
+    border-radius: 50%;
+    background-color: chartreuse;
+    height: 200px;
+    width: 100px;
+    margin: 25px;
+}

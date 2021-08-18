@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Restaurants!</title>
+    <style>
+        img{
+            height:200px;
+        }
+    </style>
+  </head>
+    <body>
+        <!-- Titles and subtitles -->
+            <h1>My Favorite Restaurants</h1>
+            <h2>These are my favorite places to eat from one to five</h2>
+            
+            <ol>
+                <li>Tomboy Outback</li>
+
+                <li>Goth IHOP</li>
+                <li>e-girl Chili's</li>
+                <li>Gamestop</li>
+                <li>
+                    <a href="my-own-kitchen.html" target="">My own kitchen
+                    <div>
+                        <br><img src="https://theydesign.net/wp-content/uploads/2017/07/phenomenal-traditional-kitchen-design-ideas-amazing-architecture-regarding-traditional-kitchen-design-traditional-kitchen-designs-and-elements.jpg">
+                        </div>
+                    </a>
+                </li>
+            </ol>
+
+        <!-- Tables of best ingredients -->
+            <h2>Best Ingredients Ever</h2>
+            <table>
+                <!-- Table Rows and Columns -->
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Usual Color</th>
+                </tr>
+                <tr>
+                    <th>Tomato</th>
+                    <th>Tomato Red</th>
+                </tr>
+                <tr>
+                    <th>Apple</th>
+                    <th>Delcious Red</th>
+                </tr>
+                <tr>
+                    <th>Raw Pork</th>
+                    <th><i>Pink</i></th>
+                </tr>
+            </table>
+        
+        <!-- forms -->
+            <h3>What are your favorite places to eat? (I will contact back to you)</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"/>
+                <label for="name">Email:</label>
+                <input type="text" id="name" name="name"/>
+                <textarea id="bio" name="bio"  rows="7" cols="50">
+                    Any additional information about you..
+                    </textarea>
+                <h4> Select all that apply:</h4>
+                <label for="Fast Food">Fast Food
+                    <input type="checkbox" id="fastFood" name="fastFood">
+                </label>
+                <label for="Fast Food">Fancy
+                    <input type="checkbox" id="fastFood" name="fastFood">
+                </label>
+                <br><br>
+                <!-- Form types response -->
+                    <label for="type">Favorite Nationality of Food</label>
+                    <select id="type" name="type" >
+                        <option value="Name">American</option>
+                        <option value="Italian">Italian</option>
+                        <option value="Latin">Latin</option>
+                    </select>
+                <br></br>
+                <textarea id="bio" name="bio"  rows="7" cols="50">
+                    Any additional information about your choices..
+                </textarea>
+                <br></br>
+                <input type="submit" value="ok!"/>
+            </form>
+    </body>
+</html>
