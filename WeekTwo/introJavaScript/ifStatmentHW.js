@@ -15,5 +15,5 @@ alert(`${input} miles, hmm?`);
 if (input > 500) {
     console.log('Yes, I think I need an oil change.')
 } else {
-    console.log('My car doesn\'t need an oil change yet')
+    console.log('My car doesn\'t need an oil change yet')   
 }
