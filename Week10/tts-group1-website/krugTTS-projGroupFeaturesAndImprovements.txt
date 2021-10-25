@@ -1,0 +1,8 @@
+Here are three ways in which this project can improve, which I am tempted to implement some day:
+
+	1. Actually be able to utilize maps and locate certain events, concerts, etc
+	2. Utilize databases in order to change more than just song, but the things I mentioned
+	in number 1, and add more artists, songs, albums, etc from a moderator standpoint.
+	3. Link personal pages for the artists themselves. Think of like a website within a 
+	website. Every artist under the websites banner would have a webpage they could make
+	for their fans and promotion.
